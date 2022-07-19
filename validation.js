@@ -5,17 +5,8 @@ const glo = document.getElementById("glo-img");
 const airtel = document.getElementById("airtel-img");
 const nineMobile = document.getElementById("nine-mobile-img");
 
-// //this block is how i previously used it with preventdefault()
-// //add event listener and validate form
-// form.addEventListener("submit", (e) => {
-//   e.preventDefault();
-//   document.body.style.backgroundColor = "red";
-//   CheckIfEmpty();
-// });
-// //this is the end of the block
 //add event listener to input
 numInput.addEventListener("input", (e) => {
-  // console.log(numInput.value);
   setTimeout(checkServiceProvider, 2000);
 
   setTimeout(CheckIfEmpty, 7000);
@@ -73,11 +64,4 @@ function checkServiceProvider() {
   } else {
     nineMobile.style.visibility = " hidden";
   }
-}
-
-// validate form value
-function validate() {
-  let telNum = numInput.value.trim();
-  CheckIfEmpty();
-  checkServiceProvider();
 }
