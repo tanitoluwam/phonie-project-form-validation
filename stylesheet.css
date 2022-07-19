@@ -1,0 +1,34 @@
+#number-div{
+    width: 50%;
+    position: relative;
+    /* border: 1px solid red; */
+}
+.icon-img{
+    width: 25px;
+    position: absolute;
+    right: 1%;
+    top: 15%;
+    border-radius: 5px;
+    
+}
+#tel-input{
+    width: 100%;
+    padding: 1%;
+    border-radius:10px ;
+}
+small{
+    color: red;
+}
+#mtn-img{
+    visibility: hidden;
+}
+#glo-img{
+    visibility: hidden;
+}
+#airtel-img{
+    visibility: hidden;
+}
+#nine-mobile-img{
+    visibility: hidden;
+
+}

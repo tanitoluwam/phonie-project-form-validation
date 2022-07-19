@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+    <link rel="stylesheet" href="./stylesheet.css" />
+    <script src="./validation.js" defer></script>
+  </head>
+  <body>
+    <main id="container">
+      <h1>Form Validation</h1>
+      <form id="form1" action="">
+        <div id="number-div">
+          <input
+            id="tel-input"
+            type="tel"
+            pattern="^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,7}$"
+            placeholder="+(123) 456 789 1234"
+            name="phn-no"
+            required
+          />
+          <img
+            class="icon-img"
+            src="./images/209485.svg"
+            alt="mtn icon"
+            id="mtn-img"
+          />
+          <img
+            class="icon-img"
+            src="./images/NicePng_dnd-logo-png_5326867.png"
+            alt="Glo icon"
+            id="glo-img"
+          />
+          <img
+            class="icon-img"
+            src="./images/airtel.svg"
+            alt="Airtel icon"
+            id="airtel-img"
+          />
+          <img
+            class="icon-img"
+            src="./images/9mobile.svg"
+            alt="9Mobile icon"
+            id="nine-mobile-img"
+          />
+        </div>
+        <small></small> <br />
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+  </body>
+</html>
